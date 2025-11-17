@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+
+::view-transition-group(*) {
+    animation-duration: 0.5s;
+}
+
+#from-red-hood,
+#to-red-hood {
+    view-transition-name: red-hood;
+}
+
+#from-sleeping-beauty,
+#to-sleeping-beauty {
+    view-transition-name: sleeping-beauty;
+}
+
+#from-snowdrop,
+#to-snowdrop {
+    view-transition-name: snowdrop;
+}
+
+::view-transition-old(red-hood),
+::view-transition-new(red-hood) {
+    mix-blend-mode: normal;
+
+    height: 100%;
+}
+
+::view-transition-old(sleeping-beauty),
+::view-transition-new(sleeping-beauty) {
+    mix-blend-mode: normal;
+    overflow: clip;
+    height: 100%;
+    transform: none;
+}
+
+::view-transition-old(snowdrop),
+::view-transition-new(snowdrop) {
+    mix-blend-mode: normal;
+    overflow: clip;
+    height: 100%;
+    transform: none;
+}
+
+::view-transition-new(red-hood) {
+    object-fit: cover;
+}
+
+::view-transtion-old(red-hood) {
+    object-fit: contain;
+}

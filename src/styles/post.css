@@ -1,0 +1,41 @@
+html {
+    background-color: #f1f5f9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100ch;
+    padding: 1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 70ch;
+        border-radius: 2rem;
+        margin: 1rem 0;
+        align-self: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul {
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+}
