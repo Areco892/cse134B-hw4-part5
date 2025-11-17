@@ -9,7 +9,6 @@ image:
     src: '/snowdrop_and_seven_little_dwarfs.png'
     alt: 'Snowdrop, a beautiful princess, escapes from the wicked queen and finds refuge with seven dwarfs. The queen’s jealousy leads to a series of challenges, but Snowdrop’s kindness and innocence ultimately win the day.'
 moralStory: "Kindness and purity of heart are stronger than jealousy and evil. True love can overcome even the darkest of curses."
-tags: ["fairy tale", "classic", "children", "magic", "dwarfs", "princess", "jealousy", "kindness", "good vs evil"]
 ---
 
 Once upon a time there was a little princess called Snowdrop, who had a cruel step-mother who was jealous of her. The Queen had a magic mirror, which could speak to her, and when she looked into it and asked who was the fairest lady in the land the mirror told her she was, for she was very beautiful; but as Snowdrop grew up she became still more lovely than her step-mother and the mirror did not fail to tell the Queen this.
