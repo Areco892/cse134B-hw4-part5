@@ -2,6 +2,7 @@
 import Header from "./components/Header.astro";
 import Footer from "./components/Footer.astro";
 import BlogCard from "./components/Blog.astro";
+import "../styles/global.css";
 ---
 
 <!doctype html>
@@ -9,7 +10,6 @@ import BlogCard from "./components/Blog.astro";
     <head>
         <meta charset="utf-8" />
         <title>Blog</title>
-        <link rel="stylesheet" href="src/styles/global.css" />
         <style>
             main {
                 display: flex;
@@ -48,19 +48,19 @@ import BlogCard from "./components/Blog.astro";
                     blogID="from-red-hood"
                     title="Litte Red Riding Hood"
                     link="/posts/post-1/"
-                    image="../../public/little_red_riding_hood.jpg"
+                    image="/little_red_riding_hood.jpg"
                 />
                 <BlogCard
                     blogID="from-sleeping-beauty"
                     title="The Sleeping Beauty"
                     link="/posts/post-2/"
-                    image="../../public/sleeping_beauty.png"
+                    image="/sleeping_beauty.png"
                 />
                 <BlogCard
                     blogID="from-snowdrop"
                     title="Snowdrop and Seven Little Dwarfs"
                     link="/posts/post-3/"
-                    image="../../public/snowdrop_and_seven_little_dwarfs.png"
+                    image="/snowdrop_and_seven_little_dwarfs.png"
                 />
             </section>
         </main>

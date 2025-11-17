@@ -6,7 +6,7 @@ pubDate: 2025-11-15
 description: 'A beautiful princess is cursed by an evil fairy to fall into a deep sleep, only to be awakened years later by true love’s kiss. A tale of fate, love, and the power of kindness in the face of evil.'
 author: "Project Gutenberg"
 image:
-    src: '../../public/sleeping_beauty.png'
+    src: '/sleeping_beauty.png'
     alt: 'A beautiful princess is cursed by an evil fairy to fall into a deep sleep, only to be awakened years later by true love’s kiss. A tale of fate, love, and the power of kindness in the face of evil.'
 moralStory: "Love, bravery, and fate can break even the darkest curses."
 tags: ["fairy tale", "classic", "children", "love", "curse", "sleep", "princess", "fate", "magic", "true love"]

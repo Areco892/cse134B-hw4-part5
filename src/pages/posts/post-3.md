@@ -6,7 +6,7 @@ pubDate: 2025-11-15
 description: 'Snowdrop, a beautiful princess, escapes from the wicked queen and finds refuge with seven dwarfs. The queen’s jealousy leads to a series of challenges, but Snowdrop’s kindness and innocence ultimately win the day.'
 author: "Project Gutenberg"
 image:
-    src: '../../public/snowdrop_and_seven_little_dwarfs.png'
+    src: '/snowdrop_and_seven_little_dwarfs.png'
     alt: 'Snowdrop, a beautiful princess, escapes from the wicked queen and finds refuge with seven dwarfs. The queen’s jealousy leads to a series of challenges, but Snowdrop’s kindness and innocence ultimately win the day.'
 moralStory: "Kindness and purity of heart are stronger than jealousy and evil. True love can overcome even the darkest of curses."
 tags: ["fairy tale", "classic", "children", "magic", "dwarfs", "princess", "jealousy", "kindness", "good vs evil"]

@@ -6,7 +6,7 @@ pubDate: 2025-11-15
 description: 'A young girl in a red hood ventures through the forest to visit her grandmother, only to encounter a cunning wolf with mischievous plans. A timeless tale of caution and cleverness.'
 author: "Project Gutenberg"
 image:
-    src: '../../public/little_red_riding_hood.jpg'
+    src: '/little_red_riding_hood.jpg'
     alt: 'A young girl in a red hood ventures through the forest to visit her grandmother, only to encounter a cunning wolf with mischievous plans. A timeless tale of caution and cleverness.'
 moralStory: "Always follow the rules and listen to the advice of those who care for you, especially when you're in unfamiliar situations."
 tags: ["fairy tale", "cautionary tale", "classic", "children", "adventure", "wolf", "forest"]
