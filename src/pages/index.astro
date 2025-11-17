@@ -1,22 +1,72 @@
 ---
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import Footer from "./components/Footer.astro";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" id="from">
 	<head>
 		<meta charset="utf-8" />
 		<title>Blog</title>
+		<link rel="stylesheet" href="src/styles/global.css" />
+		<style>
+			main {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				gap: 1rem;
+				justify-content: space-around;
+				padding: 2rem;
+				text-align: center;
+
+				section {
+					width: 100%;
+					border: 2px solid black;
+					border-radius: 2rem;
+					padding: 2rem;
+					display: flex;
+					flex-direction: column;
+					gap: 2rem;
+					justify-content: center;
+
+					h2 {
+						width: 100%;
+					}
+
+					p {
+						font-size: 1.5rem;
+					}
+
+					#blog-button {
+						width: 10rem;
+						border: 0.2rem solid black;
+						border-radius: 2rem;
+						align-self: center;
+						text-decoration: none;
+						color: black;
+						font-weight: bold;
+						padding: 0.25rem;
+					}
+				}
+			}
+		</style>
 	</head>
 	<body>
-		<Header />
-
 		<main>
-			<h1>Hello World!</h1>
-			<p>
-				This is my first attempt at creating a static site using Astro.
-			</p>
+			<section id="intro">
+				<h2>~WELCOME~</h2>
+				<p>
+					This is a little experiment using Astro to create static
+					sites. In this case, this website is a small blog.
+				</p>
+			</section>
+			<section id="blog">
+				<h2>~BLOGS~</h2>
+				<p>
+					In this section, you can explore a variety of entertaining
+					and informative blogs.
+				</p>
+				<a id="blog-button" href="/blogs">Explore blogs!</a>
+			</section>
 		</main>
 
 		<Footer />
