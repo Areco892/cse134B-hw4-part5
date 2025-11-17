@@ -1,70 +1,37 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "./components/Header.astro";
 import Footer from "./components/Footer.astro";
 import BlogCard from "./components/Blog.astro";
-import "../styles/global.css";
+import "../styles/blog.css";
 ---
 
-<!doctype html>
-<html lang="en" id="from">
-    <head>
-        <meta charset="utf-8" />
-        <title>Blog</title>
-        <style>
-            main {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 1rem;
-                justify-content: space-around;
-                padding: 2rem;
-                text-align: center;
+<BaseLayout>
+    <Header />
 
-                section {
-                    width: 100%;
-                    border: 2px solid black;
-                    border-radius: 2rem;
-                    padding: 2rem;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    gap: 2rem;
-                    justify-content: center;
+    <main>
+        <section>
+            <h2>Classic Fables</h2>
+            <BlogCard
+                blogID="from-red-hood"
+                title="Litte Red Riding Hood"
+                link="/posts/post-1/"
+                image="/little_red_riding_hood.jpg"
+            />
+            <BlogCard
+                blogID="from-sleeping-beauty"
+                title="The Sleeping Beauty"
+                link="/posts/post-2/"
+                image="/sleeping_beauty.png"
+            />
+            <BlogCard
+                blogID="from-snowdrop"
+                title="Snowdrop and Seven Little Dwarfs"
+                link="/posts/post-3/"
+                image="/snowdrop_and_seven_little_dwarfs.png"
+            />
+        </section>
+    </main>
 
-                    h2 {
-                        width: 100%;
-                    }
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <Header />
-
-        <main>
-            <section>
-                <h2>Classic Fables</h2>
-                <BlogCard
-                    blogID="from-red-hood"
-                    title="Litte Red Riding Hood"
-                    link="/posts/post-1/"
-                    image="/little_red_riding_hood.jpg"
-                />
-                <BlogCard
-                    blogID="from-sleeping-beauty"
-                    title="The Sleeping Beauty"
-                    link="/posts/post-2/"
-                    image="/sleeping_beauty.png"
-                />
-                <BlogCard
-                    blogID="from-snowdrop"
-                    title="Snowdrop and Seven Little Dwarfs"
-                    link="/posts/post-3/"
-                    image="/snowdrop_and_seven_little_dwarfs.png"
-                />
-            </section>
-        </main>
-
-        <Footer />
-    </body>
-</html>
+    <Footer />
+</BaseLayout>
