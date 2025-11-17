@@ -11,7 +11,6 @@ main {
     gap: 1rem;
     justify-content: space-around;
     padding: 2rem;
-    text-align: center;
 
     section {
         width: 100%;
@@ -23,12 +22,17 @@ main {
         flex-wrap: wrap;
         gap: 2rem;
         justify-content: center;
+        text-align: center;
 
         h2 {
             width: 100%;
         }
 
-        a {
+        p {
+            width: 100%;
+        }
+
+        #explore-button {
             border: 2px solid black;
             border-radius: 10px;
             padding: 0.5rem;
@@ -85,12 +89,4 @@ main {
     overflow: clip;
     height: 100%;
     transform: none;
-}
-
-::view-transition-new(red-hood) {
-    object-fit: cover;
-}
-
-::view-transtion-old(red-hood) {
-    object-fit: contain;
 }
