@@ -5,7 +5,7 @@ title: "Chocolate Depression Cake"
 id: "to-chocolate"
 pubDate: 2025-11-17
 description: 'This unique Chocolate Depression Cake recipe, popularized during the great depression, is rich and chocolatey without the using any eggs, butter, or milk!'
-author: ": https://www.budgetbytes.com"
+author: ": https://www.budgetbytes.com/chocolate-depression-cake"
 image:
     src: '/chocolate_depression_cake.webp'
     alt: 'A fluffy delectable square chocolate depression cake covered in chocolate icing served on a white plate.'

@@ -5,7 +5,7 @@ title: "Cheesecake Bars"
 id: "to-cheesecake"
 pubDate: 2025-11-17
 description: 'Creamy, tangy homemade Cheesecake Bars with a graham cracker crust. Easy to bake, slice, and top with fruit, jam, or chocolate for the perfect dessert!'
-author: ": https://www.budgetbytes.com"
+author: ": https://www.budgetbytes.com/cheesecake-bars"
 image:
     src: '/cheesecake_bars.jpg'
     alt: '3 cheescake bars stacked on top of each other with cranberries at the top and a beautiful cranberry glaze dripping from the front side.'

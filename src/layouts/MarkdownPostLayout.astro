@@ -16,6 +16,9 @@ import "../styles/post.css";
         src={frontmatter.image.src}
         alt={frontmatter.image.alt}
     />
+    <p id="description">
+        <strong>Description</strong>: {frontmatter.description}
+    </p>
     <hr />
     <slot />
 </main>

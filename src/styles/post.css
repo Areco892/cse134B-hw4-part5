@@ -29,6 +29,11 @@ main {
         align-self: center;
     }
 
+    #description {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
     h1 {
         font-size: 2rem;
     }

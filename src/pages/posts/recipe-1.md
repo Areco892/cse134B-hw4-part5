@@ -5,7 +5,7 @@ title: "Apple Dump Cake"
 id: "to-apple-cake"
 pubDate: 2025-11-17
 description: 'An easy Apple Dump Cake recipe with fresh apples, cake mix, and butter. Just dump, bake, and enjoy warm with ice cream!'
-author: ": https://www.budgetbytes.com"
+author: ": https://www.budgetbytes.com/apple-dump-cake"
 image:
     src: '/apple_dump_cake.jpg'
     alt: 'Side view of pple dump cake served in a plate with a scoop of vanilla ice cream on top.'
