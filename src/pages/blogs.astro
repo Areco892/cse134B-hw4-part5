@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "./components/Header.astro";
 import Footer from "./components/Footer.astro";
-import BlogCard from "./components/Blog.astro";
+import BlogCard from "./components/Card.astro";
 ---
 
 <BaseLayout>
@@ -12,21 +12,21 @@ import BlogCard from "./components/Blog.astro";
         <section>
             <h2>Classic Fables</h2>
             <BlogCard
-                blogID="from-red-hood"
+                cardID="from-red-hood"
                 title="Litte Red Riding Hood"
-                link="/posts/post-1/"
+                link="/posts/fable-1/"
                 image="/little_red_riding_hood.jpg"
             />
             <BlogCard
-                blogID="from-sleeping-beauty"
+                cardID="from-sleeping-beauty"
                 title="The Sleeping Beauty"
-                link="/posts/post-2/"
+                link="/posts/fable-2/"
                 image="/sleeping_beauty.png"
             />
             <BlogCard
-                blogID="from-snowdrop"
+                cardID="from-snowdrop"
                 title="Snowdrop and Seven Little Dwarfs"
-                link="/posts/post-3/"
+                link="/posts/fable-3/"
                 image="/snowdrop_and_seven_little_dwarfs.png"
             />
         </section>

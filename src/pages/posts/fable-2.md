@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+section: "/blogs"
 title: "🌹The Sleeping Beauty💤"
 id: "to-sleeping-beauty"
 pubDate: 2025-11-15
@@ -8,7 +9,6 @@ author: "Project Gutenberg"
 image:
     src: '/sleeping_beauty.png'
     alt: 'A beautiful princess is cursed by an evil fairy to fall into a deep sleep, only to be awakened years later by true love’s kiss. A tale of fate, love, and the power of kindness in the face of evil.'
-moralStory: "Love, bravery, and fate can break even the darkest curses."
 ---
 
 # THE SLEEPING BEAUTY
@@ -23,3 +23,5 @@ At the end of the hundred years a king's son heard of the castle and the enchant
 At once she awoke and with her the king and queen and all the courtiers, who had fallen asleep at the same time.
 
 As the princess was as much taken with the prince's appearance as he was with hers, they decided to be married. And so the wedding was celebrated the same day with great pomp and ceremony.
+
+**Moral of the Story**: "Love, bravery, and fate can break even the darkest curses."

@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+section: "/blogs"
 title: "🧺Little Red Riding Hood🐺"
 id: "to-red-hood"
 pubDate: 2025-11-15
@@ -8,7 +9,6 @@ author: "Project Gutenberg"
 image:
     src: '/little_red_riding_hood.jpg'
     alt: 'A young girl in a red hood ventures through the forest to visit her grandmother, only to encounter a cunning wolf with mischievous plans. A timeless tale of caution and cleverness.'
-moralStory: "Always follow the rules and listen to the advice of those who care for you, especially when you're in unfamiliar situations."
 ---
 There was once a sweet little maid who lived with her father and mother in a pretty little cottage at the edge of the village. At the further end of the wood was another pretty cottage and in it lived her grandmother. Everybody loved this little girl, her grandmother perhaps loved her most of all and gave her a great many pretty things. Once she gave her a red cloak with a hood which she always wore, so people called her **Little Red Riding Hood**.
 
@@ -42,3 +42,5 @@ In a short while Little Red Riding Hood knocked at the door, and walked in, sayi
 
 Just at that moment Little Red Riding Hood's father was passing the cottage and heard her scream. He rushed in and with his axe chopped off Mr. Wolf's head.
 Everybody was happy that Little Red Riding Hood had escaped the wolf. Then Little Red Riding Hood's father carried her home and they lived happily ever after.
+
+**Moral of the Story**: "Always follow the rules and listen to the advice of those who care for you, especially when you're in unfamiliar situations."

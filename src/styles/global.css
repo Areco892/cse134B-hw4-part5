@@ -72,22 +72,50 @@ main {
 ::view-transition-old(red-hood),
 ::view-transition-new(red-hood) {
     mix-blend-mode: normal;
-
     height: 100%;
 }
 
 ::view-transition-old(sleeping-beauty),
 ::view-transition-new(sleeping-beauty) {
     mix-blend-mode: normal;
-    overflow: clip;
     height: 100%;
-    transform: none;
 }
 
 ::view-transition-old(snowdrop),
 ::view-transition-new(snowdrop) {
     mix-blend-mode: normal;
-    overflow: clip;
     height: 100%;
-    transform: none;
+}
+
+#from-apple-cake,
+#to-apple-cake {
+    view-transition-name: apple-cake;
+}
+
+#from-cheesecake,
+#to-cheesecake {
+    view-transition-name: cheesecake-bars;
+}
+
+#from-chocolate,
+#to-chocolate {
+    view-transition-name: chocolate-cake;
+}
+
+::view-transition-old(apple-cake),
+::view-transition-new(apple-cake) {
+    mix-blend-mode: normal;
+    height: 100%;
+}
+
+::view-transition-old(cheesecake-bars),
+::view-transition-new(cheesecake-bars) {
+    mix-blend-mode: normal;
+    height: 100%;
+}
+
+::view-transition-old(chocolate-cake),
+::view-transition-new(chocolate-cake) {
+    mix-blend-mode: normal;
+    height: 100%;
 }

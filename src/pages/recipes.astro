@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "./components/Header.astro";
+import Footer from "./components/Footer.astro";
+import RecipeCard from "./components/Card.astro";
+---
+
+<BaseLayout>
+    <Header />
+
+    <main>
+        <section>
+            <h2>Recipes</h2>
+            <RecipeCard
+                cardID="from-apple-cake"
+                title="Apple Dump Cake"
+                link="/posts/recipe-1/"
+                image="/apple_dump_cake.jpg"
+            />
+            <RecipeCard
+                cardID="from-cheesecake"
+                title="Cheesecake Bars"
+                link="/posts/recipe-2/"
+                image="/cheesecake_bars.jpg"
+            />
+            <RecipeCard
+                cardID="from-chocolate"
+                title="Chocolate Depression Cake"
+                link="/posts/recipe-3/"
+                image="/chocolate_depression_cake.webp"
+            />
+        </section>
+    </main>
+
+    <Footer />
+</BaseLayout>

@@ -1,8 +1,8 @@
 ---
-const { blogID, title, link, image } = Astro.props;
+const { cardID, title, link, image } = Astro.props;
 ---
 
-<a id={blogID} href={link}>
+<a id={cardID} href={link}>
     <img src={image} alt={title} />
     <h3>{title}</h3>
 </a>

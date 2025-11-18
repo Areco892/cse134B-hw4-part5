@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
+section: "/blogs"
 title: "🍎Snowdrop and Seven Little Dwarfs🧝‍♂️"
 id: "to-snowdrop"
 pubDate: 2025-11-15
@@ -8,7 +9,6 @@ author: "Project Gutenberg"
 image:
     src: '/snowdrop_and_seven_little_dwarfs.png'
     alt: 'Snowdrop, a beautiful princess, escapes from the wicked queen and finds refuge with seven dwarfs. The queen’s jealousy leads to a series of challenges, but Snowdrop’s kindness and innocence ultimately win the day.'
-moralStory: "Kindness and purity of heart are stronger than jealousy and evil. True love can overcome even the darkest of curses."
 ---
 
 Once upon a time there was a little princess called Snowdrop, who had a cruel step-mother who was jealous of her. The Queen had a magic mirror, which could speak to her, and when she looked into it and asked who was the fairest lady in the land the mirror told her she was, for she was very beautiful; but as Snowdrop grew up she became still more lovely than her step-mother and the mirror did not fail to tell the Queen this.
@@ -52,3 +52,4 @@ The dwarfs were so sorry for him they consented, and the prince's servants were 
 
 Of course she married the prince, and she, her husband and the good little dwarfs lived happily ever after, but the cruel step-mother came to a bad end, and no one was even sorry for her.
 
+**Moral of the Story**: "Kindness and purity of heart are stronger than jealousy and evil. True love can overcome even the darkest of curses."
